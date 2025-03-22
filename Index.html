@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="css/registartion.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>ONLINE VOTING MANAGEMENT SYSTEM</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <form action="api/login.php" method="post">
+            <label>Email:</label>
+            <input type="email" name="email"><br><br>
+            <label>Password: </label>
+            <input type="password" name="password"><br><br>
+            <label>Select your role:</label>
+            <select id="dropbox" name="role">
+                <option>voter</option>
+                <option>candidate</option>
+            </select><br><br>
+            <button type="submit">Login</button><br><br>
+            <a href="routes/register.html">Create a new account</a><br>
+        </form><br><br>
+    </div>
+</body>
+
+</html>
